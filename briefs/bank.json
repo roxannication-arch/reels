@@ -1,0 +1,193 @@
+[
+  { "template": "frontpage", "lines": [
+    { "say": "This newspaper has exactly one reader.", "caption": "One reader." },
+    { "say": "At seven, an AI reads everything that came in overnight.", "head": "Overnight: 47 messages, three of them matter", "kicker": "Waiting" },
+    { "say": "Who is waiting. What got paid. What broke.", "head": "$1,240 received. One payment failed.", "kicker": "Payments" },
+    { "say": "One page. Then I put the phone down.", "head": "All engines running", "kicker": "Engine room" } ] },
+  { "template": "frontpage", "lines": [
+    { "say": "My front page this morning: three people, one payment, zero news.", "caption": "3 people · 1 payment · 0 news" },
+    { "say": "Daniel wants Thursday. Marta wants one word.", "head": "Daniel wants Thursday. Marta wants one word.", "kicker": "Waiting" },
+    { "say": "Mom wants Sunday.", "head": "Mom wants Sunday. Two days without an answer.", "kicker": "Letters" },
+    { "say": "That's the whole paper. That's the whole day.", "head": "Nothing else happened. Good.", "kicker": "Front page" } ] },
+  { "template": "frontpage", "lines": [
+    { "say": "An AI wrote a newspaper about my Tuesday.", "caption": "A newspaper about my Tuesday" },
+    { "say": "It read my inbox so I didn't have to.", "head": "52 emails read. Two made the paper.", "kicker": "Waiting" },
+    { "say": "It checked what got paid.", "head": "$860 in. Two payments still pending.", "kicker": "Payments" },
+    { "say": "It even knew about the dentist.", "head": "16:00. Dentist. Bring the card.", "kicker": "Diary" } ] },
+  { "template": "frontpage", "lines": [
+    { "say": "Here's what made my front page today.", "caption": "Today's front page" },
+    { "say": "A contract that needs a yes by noon.", "head": "Sophie: contract back, one change, yes by noon", "kicker": "Waiting" },
+    { "say": "An invoice that finally landed.", "head": "$2,110 received. One refund.", "kicker": "Payments" },
+    { "say": "And a walk before the heat.", "head": "07:30. Walk before the heat.", "kicker": "Diary" } ] },
+  { "template": "frontpage", "lines": [
+    { "say": "My inbox became a newspaper. Front page only.", "caption": "Inbox, as a front page" },
+    { "say": "No feed. No badges. No scrolling.", "head": "Nothing to scroll. That's the point.", "kicker": "Front page" },
+    { "say": "Just the people who actually need me today.", "head": "Three people need you. Here they are.", "kicker": "Waiting" },
+    { "say": "Ten minutes, and the day is mine.", "head": "Read at 07:00. Phone down at 07:10.", "kicker": "Diary" } ] },
+  { "template": "frontpage", "lines": [
+    { "say": "47 messages came in overnight. Three made the paper.", "caption": "47 in. 3 made the paper." },
+    { "say": "The rest can wait, and the paper knows it.", "head": "44 messages held for later", "kicker": "Waiting" },
+    { "say": "Payments column: one in, one stuck.", "head": "$430 received. Deposit link still missing.", "kicker": "Payments" },
+    { "say": "Weather: 29 and clear. Inbox: 47 and cloudy.", "head": "29°C and clear. Inbox cloudy.", "kicker": "Weather" } ] },
+  { "template": "frontpage", "lines": [
+    { "say": "The headline this morning was my mom.", "caption": "Headline: Mom" },
+    { "say": "She called at 23:40 and left no message.", "head": "Dad called at 23:40. No message.", "kicker": "Letters" },
+    { "say": "The paper put her above the invoices.", "head": "Family above invoices. Editorial policy.", "kicker": "Front page" },
+    { "say": "So I called first, before anything else.", "head": "09:00. Call home.", "kicker": "Diary" } ] },
+  { "template": "frontpage", "lines": [
+    { "say": "Nothing happened today. Best edition so far.", "caption": "Nothing happened. Best edition." },
+    { "say": "Nobody waiting. Nothing failed.", "head": "No one is waiting for a reply", "kicker": "Waiting" },
+    { "say": "All engines running.", "head": "All engines running", "kicker": "Engine room" },
+    { "say": "A short paper is a good paper.", "head": "Short edition. Long morning.", "kicker": "Front page" } ] },
+
+  { "template": "printer", "lines": [
+    { "say": "Six thirty. The printer wakes up before I do.", "caption": "6:30. The printer wakes up first." },
+    { "say": "It prints one page about my life.", "caption": "One page. About my life." },
+    { "say": "Who's waiting for me. What got paid. My day.", "caption": "Who's waiting · what got paid · my day" },
+    { "say": "I read it with coffee. Then the phone stays off.", "caption": "Coffee. Paper. Phone off." } ] },
+  { "template": "printer", "lines": [
+    { "say": "This is the only thing I print.", "caption": "The only thing I print." },
+    { "say": "Not tickets. Not contracts. This.", "caption": "Not tickets. Not contracts." },
+    { "say": "A newspaper written about me, overnight, by an AI.", "caption": "Written overnight. About me." },
+    { "say": "Forty seconds of printer noise. Then quiet.", "caption": "40 seconds. Then quiet." } ] },
+  { "template": "printer", "lines": [
+    { "say": "My printer knows my day before I do.", "caption": "The printer knows first." },
+    { "say": "At midnight an AI reads my calendar and my inbox.", "caption": "Midnight: AI reads it all." },
+    { "say": "At six thirty, this comes out.", "caption": "6:30: this comes out." },
+    { "say": "I haven't touched my phone yet.", "caption": "Phone untouched." } ] },
+  { "template": "printer", "lines": [
+    { "say": "One page a day. That's the whole system.", "caption": "One page a day." },
+    { "say": "No app. No dashboard. No notifications.", "caption": "No app. No dashboard." },
+    { "say": "Paper, coffee, ten minutes.", "caption": "Paper. Coffee. Ten minutes." },
+    { "say": "Then I know the day, and the day doesn't own me.", "caption": "I know the day. It doesn't own me." } ] },
+  { "template": "printer", "lines": [
+    { "say": "I stopped checking my phone. The printer checks it for me.", "caption": "The printer checks my phone." },
+    { "say": "It reads the messages and keeps the three that matter.", "caption": "Keeps the three that matter." },
+    { "say": "It lists what got paid and what didn't.", "caption": "Paid. Not paid." },
+    { "say": "And it prints my evening plan on the same page.", "caption": "Evening plan, same page." } ] },
+  { "template": "printer", "lines": [
+    { "say": "The sound of my morning: one page, 40 seconds.", "caption": "One page. 40 seconds." },
+    { "say": "No alarm. No feed. Just the printer.", "caption": "No alarm. No feed." },
+    { "say": "Everything I need to know is on it.", "caption": "Everything I need to know." },
+    { "say": "Everything I don't is not.", "caption": "Everything I don't is not." } ] },
+  { "template": "printer", "lines": [
+    { "say": "Printed for one reader. Me.", "caption": "Printed for one reader." },
+    { "say": "An AI edits it. My life writes it.", "caption": "AI edits. Life writes." },
+    { "say": "Front page: people. Page two: the good stuff.", "caption": "Page 1: people. Page 2: life." },
+    { "say": "I keep the Sunday editions.", "caption": "I keep the Sunday editions." } ] },
+
+  { "template": "lockscreen", "clearAt": 2, "lines": [
+    { "say": "This is what my phone used to look like at six thirty.", "caption": "6:30. Before." },
+    { "say": "Forty notifications. Before coffee.", "caption": "40 notifications before coffee" },
+    { "say": "Now it looks like this.", "caption": "Now." },
+    { "say": "An AI reads everything and prints me a newspaper.", "caption": "AI reads it all. Prints one page." },
+    { "say": "Same information. Zero scroll.", "caption": "Same information. Zero scroll." } ] },
+  { "template": "lockscreen", "clearAt": 1, "lines": [
+    { "say": "Forty notifications before coffee. Not anymore.", "caption": "40 before coffee. Not anymore." },
+    { "say": "Now my lock screen is a newspaper.", "caption": "Lock screen: a newspaper." },
+    { "say": "Written about me, while I slept.", "caption": "Written while I slept." },
+    { "say": "Three people, one payment, my day.", "caption": "3 people · 1 payment · my day" } ] },
+  { "template": "lockscreen", "clearAt": 2, "lines": [
+    { "say": "I deleted nothing. I just stopped seeing it first.", "caption": "Deleted nothing." },
+    { "say": "Every app still sends what it sends.", "caption": "The apps still send." },
+    { "say": "But the first thing I see is this.", "caption": "First thing I see." },
+    { "say": "A page an AI wrote about my day.", "caption": "A page about my day." } ] },
+  { "template": "lockscreen", "clearAt": 1, "lines": [
+    { "say": "My lock screen is a newspaper now.", "caption": "Lock screen = newspaper" },
+    { "say": "Not a feed. Not a widget. A front page.", "caption": "A front page." },
+    { "say": "Who's waiting, what got paid, where I'm going.", "caption": "Waiting · paid · where I'm going" },
+    { "say": "Updated every night at midnight.", "caption": "Updated at midnight." } ] },
+  { "template": "lockscreen", "clearAt": 2, "lines": [
+    { "say": "Same phone. Same inbox. Different morning.", "caption": "Same phone. Different morning." },
+    { "say": "Before: twelve apps asking for me.", "caption": "Before: 12 apps." },
+    { "say": "After: one page that already read them.", "caption": "After: one page." },
+    { "say": "I didn't buy a new phone. I bought a newspaper.", "caption": "Not a new phone. A newspaper." } ] },
+  { "template": "lockscreen", "clearAt": 2, "lines": [
+    { "say": "Every app wants me at 6:30. Only one page gets me.", "caption": "Only one page gets me." },
+    { "say": "Here's the usual crowd.", "caption": "The usual crowd." },
+    { "say": "And here's what I actually read.", "caption": "What I actually read." },
+    { "say": "An AI did the reading. I do the living.", "caption": "AI reads. I live." } ] },
+  { "template": "lockscreen", "clearAt": 1, "lines": [
+    { "say": "The feed decides your morning. Mine is decided at midnight.", "caption": "Mine is decided at midnight." },
+    { "say": "An AI reads my mail, my calendar, my messages.", "caption": "Mail · calendar · messages" },
+    { "say": "And lays it out like a newspaper, for me only.", "caption": "A newspaper, for me only." },
+    { "say": "By 6:30 it's on my lock screen.", "caption": "6:30. On the lock screen." } ] },
+
+  { "template": "versus", "splitAt": 1, "lines": [
+    { "say": "Their morning: the feed decides what matters.", "caption": "Their morning: the feed decides." },
+    { "say": "My morning: a newspaper written about me.", "caption": "My morning: a paper about me." },
+    { "say": "Three people waiting. One payment. One dinner.", "caption": "3 people · 1 payment · 1 dinner" },
+    { "say": "Ten minutes, and I know the day.", "caption": "10 minutes. I know the day." } ] },
+  { "template": "versus", "splitAt": 1, "lines": [
+    { "say": "Two mornings. Same amount of information.", "caption": "Two mornings. Same information." },
+    { "say": "One of them is a page. One of them is a feed.", "caption": "A page. A feed." },
+    { "say": "The page took an AI all night to write.", "caption": "Written overnight by AI." },
+    { "say": "The feed took me 25 minutes to lose.", "caption": "The feed took 25 minutes." } ] },
+  { "template": "versus", "splitAt": 1, "lines": [
+    { "say": "You check twelve apps. I check one page.", "caption": "12 apps vs. 1 page" },
+    { "say": "The page already checked the apps.", "caption": "The page checked the apps." },
+    { "say": "It kept three messages and dropped forty.", "caption": "Kept 3. Dropped 40." },
+    { "say": "That's the difference between informed and busy.", "caption": "Informed, not busy." } ] },
+  { "template": "versus", "splitAt": 1, "lines": [
+    { "say": "Doomscrolling vs. a newspaper about me.", "caption": "Doomscrolling vs. my paper" },
+    { "say": "Top: the world's problems, in order of outrage.", "caption": "Top: the world, by outrage." },
+    { "say": "Bottom: my problems, in order of importance.", "caption": "Bottom: mine, by importance." },
+    { "say": "Guess which one I read first now.", "caption": "Guess which I read first." } ] },
+  { "template": "versus", "splitAt": 1, "lines": [
+    { "say": "Breaking news vs. my news.", "caption": "Breaking news vs. my news" },
+    { "say": "Breaking: something happened somewhere.", "caption": "Breaking: something, somewhere." },
+    { "say": "Mine: Sophie needs a yes by noon.", "caption": "Mine: Sophie needs a yes by noon." },
+    { "say": "Only one of these changes my day.", "caption": "Only one changes my day." } ] },
+  { "template": "versus", "splitAt": 1, "lines": [
+    { "say": "One of us scrolled for 25 minutes. One of us read a page.", "caption": "25 minutes vs. one page" },
+    { "say": "We both know what's going on.", "caption": "We both know what's going on." },
+    { "say": "Only one of us knows what to do about it.", "caption": "One of us knows what to do." },
+    { "say": "An AI wrote my page. The feed wrote itself.", "caption": "AI wrote mine. The feed wrote itself." } ] },
+
+  { "template": "headlines", "lines": [
+    { "say": "My newspaper wrote these headlines about me today.", "head": "Today's headlines, about me", "kicker": "Front page" },
+    { "say": "Local woman answers all three emails. Nation stunned.", "head": "Local woman answers all three emails", "kicker": "Waiting" },
+    { "say": "Payment arrives on time, witnesses confirm.", "head": "Payment arrives on time, witnesses confirm", "kicker": "Payments" },
+    { "say": "Dinner at seven. No further comment.", "head": "Dinner at seven. No further comment.", "kicker": "Diary" } ] },
+  { "template": "headlines", "lines": [
+    { "say": "Obituary for the task I kept postponing.", "head": "Obituary: the task I kept postponing", "kicker": "Obituaries" },
+    { "say": "It lived on my list for 31 days.", "head": "Survived 31 days on the list", "kicker": "Obituaries" },
+    { "say": "It is survived by two smaller tasks.", "head": "Survived by two smaller tasks", "kicker": "Obituaries" },
+    { "say": "Services at 9 a.m. Phone in the drawer.", "head": "Services at 9. Phone in the drawer.", "kicker": "Diary" } ] },
+  { "template": "headlines", "lines": [
+    { "say": "Horoscope that only knows my calendar.", "head": "A horoscope that only knows my calendar", "kicker": "Horoscope" },
+    { "say": "Today a stranger will ask for a Friday slot.", "head": "A stranger will ask for Friday", "kicker": "Horoscope" },
+    { "say": "Money arrives from the north. $1,980.", "head": "Money arrives from the north: $1,980", "kicker": "Payments" },
+    { "say": "Avoid the dentist. Impossible. 16:00.", "head": "Avoid the dentist. Impossible. 16:00.", "kicker": "Diary" } ] },
+  { "template": "headlines", "lines": [
+    { "say": "Weather: 29 and clear. Inbox: 47 and cloudy.", "head": "29°C and clear. Inbox: 47 and cloudy.", "kicker": "Weather" },
+    { "say": "Forecast: three replies, then sun.", "head": "Three replies, then sun", "kicker": "Weather" },
+    { "say": "Chance of a failed payment: one.", "head": "Chance of failed payment: one", "kicker": "Payments" },
+    { "say": "Evening: clear, no plans, keep it that way.", "head": "Evening: no plans. Keep it that way.", "kicker": "Diary" } ] },
+  { "template": "headlines", "lines": [
+    { "say": "Front page: the invoice got paid. Page two: nothing.", "head": "The invoice got paid", "kicker": "Payments" },
+    { "say": "Page two is reserved for my life.", "head": "Page two: reserved for life", "kicker": "Front page" },
+    { "say": "Today it says: walk, lunch with Clara, sunset.", "head": "Walk. Lunch with Clara. Sunset.", "kicker": "Diary" },
+    { "say": "No crossword today. Too much sunset.", "head": "No crossword. Too much sunset.", "kicker": "Front page" } ] },
+
+  { "template": "headlines", "theme": "haunted", "lines": [
+    { "say": "My newspaper went haunted this morning.", "head": "Local woman survives 47 unread emails", "kicker": "Front page" },
+    { "say": "It wrote an obituary for my deadlines.", "head": "Obituary: the Tuesday deadline, 2026 to 2026", "kicker": "Obituaries" },
+    { "say": "And a horoscope that knew too much.", "head": "Scorpio: the invoice knows where you live", "kicker": "Horoscope" },
+    { "say": "Haunted edition. One week only. Link in bio.", "head": "Haunted Edition · one week only", "kicker": "Link in bio" } ] },
+  { "template": "frontpage", "theme": "haunted", "lines": [
+    { "say": "The Haunted Edition printed an obituary for my deadlines.", "caption": "Obituary for my deadlines" },
+    { "say": "Beloved by no one. Postponed by everyone.", "head": "Beloved by no one, postponed by everyone", "kicker": "Obituaries" },
+    { "say": "Tonight's forecast: a payment that never arrived.", "head": "Tonight: a payment that never arrived", "kicker": "Weather" },
+    { "say": "Page two is a séance with my inbox.", "head": "Page two: a séance with the inbox", "kicker": "Letters" } ] },
+  { "template": "printer", "theme": "haunted", "lines": [
+    { "say": "A horoscope that knew too much.", "caption": "It knew too much." },
+    { "say": "At midnight the printer started on its own.", "caption": "Midnight. It started on its own." },
+    { "say": "It printed my day in black and orange.", "caption": "Black and orange." },
+    { "say": "Every word was true. That's the scary part.", "caption": "Every word true. That's the scary part." } ] },
+  { "template": "lockscreen", "theme": "haunted", "clearAt": 2, "lines": [
+    { "say": "Local woman survives 47 unread emails.", "caption": "Survived 47 unread emails" },
+    { "say": "They came for her at 6:30.", "caption": "They came at 6:30." },
+    { "say": "She never saw them. The paper did.", "caption": "The paper saw them first." },
+    { "say": "Haunted Edition, until Halloween.", "caption": "Haunted Edition until Halloween" } ] }
+]

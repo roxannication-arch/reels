@@ -1,0 +1,26 @@
+{
+  "city": "Tulum",
+  "weather": ["29°C · Clear", "28°C · Partly cloudy", "30°C · Clear", "27°C · Showers", "31°C · Mostly clear"],
+  "hashtags": {
+    "frontpage": "#aiagents #morningroutine #newspaper #productivity #slowliving",
+    "printer": "#slowmorning #printer #analog #morningroutine #newspaper",
+    "lockscreen": "#digitalminimalism #lockscreen #morningroutine #aiagents #productivity",
+    "versus": "#morningroutine #digitalminimalism #slowliving #productivity #newspaper",
+    "headlines": "#newspaper #aiagents #morningroutine #journaling #slowliving",
+    "default": "#morningroutine #newspaper #aiagents #slowliving #productivity"
+  },
+  "pages": [
+    { "waiting": [["Daniel Reyes", "Signed proposal. Asked twice if Thursday works."], ["Marta Lind", "Two cover options. Wants one word: left or right."], ["Mom", "Sunday? Two days without an answer."]], "payments": [["Received today", "$1,240"], ["Failed", "1"]], "diary": [["09:30", "Call with the printer"], ["13:00", "Lunch, no phone"], ["19:00", "Dinner at Hartwood"]] },
+    { "waiting": [["Sophie Grant", "Contract back with one change. Needs a yes by noon."], ["Tom Alder", "Sent the invoice. Asking if the date is right."], ["Nadia", "Wants to borrow the car Saturday."]], "payments": [["Received today", "$860"], ["Pending", "2"]], "diary": [["08:00", "Swim"], ["11:00", "Design review"], ["18:30", "Pick up the frames"]] },
+    { "waiting": [["Elena Marsh", "Loved the draft. One question about page two."], ["Jonas Berg", "Waiting on the keys since Monday."], ["Dad", "Called at 23:40. No message."]], "payments": [["Received today", "$2,110"], ["Refunded", "1"]], "diary": [["07:30", "Walk before the heat"], ["12:00", "Lunch with Clara"], ["16:00", "Dentist, bring the card"]] },
+    { "waiting": [["Priya Nair", "Three dates for the shoot. Pick one."], ["Lucas Ferreira", "Quote accepted. Needs the deposit link."], ["Anna", "Birthday dinner, yes or no."]], "payments": [["Received today", "$430"], ["Failed", "0"]], "diary": [["09:00", "Write, phone in the drawer"], ["14:00", "Visa office"], ["20:00", "Call with Mom"]] },
+    { "waiting": [["Hannah Cole", "Approved the plan. Where to send the files?"], ["Oliver Stein", "Still waiting for the Friday slot."], ["Landlord", "Water bill. Due tomorrow."]], "payments": [["Received today", "$1,980"], ["Pending", "1"]], "diary": [["08:30", "Market"], ["13:30", "Flight check-in opens"], ["19:00", "Nothing. Keep it that way."]] },
+    { "waiting": [["Mia Thornton", "Wants the recording before the weekend."], ["Ben Okafor", "Asked for a second call. Any day but Tuesday."], ["Sister", "Sent 14 photos. One question."]], "payments": [["Received today", "$3,250"], ["Failed", "2"]], "diary": [["07:00", "Printer prints at 6:30, coffee at 7"], ["10:00", "Studio"], ["17:00", "Sunset, no camera"]] }
+  ],
+  "notifs": [
+    ["Slack · 14 new messages", "Mail · Invoice overdue", "Instagram · 37 new requests", "News · Markets slide at open", "Calendar · 3 conflicts today", "WhatsApp · Mom: call me"],
+    ["Mail · 52 unread", "Slack · @channel: urgent?", "Bank · Payment failed", "News · Breaking: everything", "Calendar · 9:00 moved to 8:30", "Group chat · 112 messages"],
+    ["Instagram · 19 new comments", "Mail · Your statement is ready", "Slack · 3 people are waiting", "Weather · Severe heat today", "Reminder · Call the landlord", "Telegram · 7 unread chats"],
+    ["Mail · Re: Re: Re: proposal", "Calendar · Dentist in 20 min", "News · 5 things to know", "Slack · 8 new mentions", "Bank · $1,240 received", "WhatsApp · Dad: no message"]
+  ]
+}

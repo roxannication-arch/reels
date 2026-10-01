@@ -1,0 +1,906 @@
+[
+  {
+    "id": "2026-10-02-01",
+    "template": "versus",
+    "theme": "paper",
+    "account": "main",
+    "voice": "af_heart",
+    "speed": 1.05,
+    "title": "Their morning: the feed decides what matters.",
+    "lines": [
+      {
+        "say": "Their morning: the feed decides what matters.",
+        "caption": "Their morning: the feed decides."
+      },
+      {
+        "say": "My morning: a newspaper written about me.",
+        "caption": "My morning: a paper about me."
+      },
+      {
+        "say": "Three people waiting. One payment. One dinner.",
+        "caption": "3 people · 1 payment · 1 dinner"
+      },
+      {
+        "say": "Ten minutes, and I know the day.",
+        "caption": "10 minutes. I know the day."
+      },
+      {
+        "say": "Want your own? Link in bio.",
+        "caption": "Link in bio"
+      }
+    ],
+    "caption": "Their morning: the feed decides what matters.\n\nMy morning: a newspaper written about me. Three people waiting. One payment. One dinner. Ten minutes, and I know the day.\n\nWant your own paper? Link in bio.",
+    "hashtags": "#morningroutine #digitalminimalism #slowliving #productivity #newspaper",
+    "name": "Roksana",
+    "city": "Tulum",
+    "weather": "31°C · Mostly clear",
+    "edition": "Morning Edition",
+    "date": "Friday, October 2, 2026",
+    "lockDate": "Friday, October 2",
+    "page": {
+      "waiting": [
+        [
+          "Sophie Grant",
+          "Contract back with one change. Needs a yes by noon."
+        ],
+        [
+          "Tom Alder",
+          "Sent the invoice. Asking if the date is right."
+        ],
+        [
+          "Nadia",
+          "Wants to borrow the car Saturday."
+        ]
+      ],
+      "payments": [
+        [
+          "Received today",
+          "$860"
+        ],
+        [
+          "Pending",
+          "2"
+        ]
+      ],
+      "diary": [
+        [
+          "08:00",
+          "Swim"
+        ],
+        [
+          "11:00",
+          "Design review"
+        ],
+        [
+          "18:30",
+          "Pick up the frames"
+        ]
+      ]
+    },
+    "notifs": [
+      "Instagram · 19 new comments",
+      "Mail · Your statement is ready",
+      "Slack · 3 people are waiting",
+      "Weather · Severe heat today",
+      "Reminder · Call the landlord",
+      "Telegram · 7 unread chats"
+    ],
+    "clearAt": 2,
+    "splitAt": 1
+  },
+  {
+    "id": "2026-10-02-02",
+    "template": "headlines",
+    "theme": "paper",
+    "account": "main",
+    "voice": "bf_emma",
+    "speed": 1.05,
+    "title": "Obituary for the task I kept postponing.",
+    "lines": [
+      {
+        "say": "Obituary for the task I kept postponing.",
+        "head": "Obituary: the task I kept postponing",
+        "kicker": "Obituaries"
+      },
+      {
+        "say": "It lived on my list for 31 days.",
+        "head": "Survived 31 days on the list",
+        "kicker": "Obituaries"
+      },
+      {
+        "say": "It is survived by two smaller tasks.",
+        "head": "Survived by two smaller tasks",
+        "kicker": "Obituaries"
+      },
+      {
+        "say": "Services at 9 a.m. Phone in the drawer.",
+        "head": "Services at 9. Phone in the drawer.",
+        "kicker": "Diary"
+      },
+      {
+        "say": "Yours is in the bio.",
+        "caption": "Link in bio"
+      }
+    ],
+    "caption": "Obituary for the task I kept postponing.\n\nIt lived on my list for 31 days. It is survived by two smaller tasks. Services at 9 a.m. Phone in the drawer.\n\nWant your own paper? Link in bio.",
+    "hashtags": "#newspaper #aiagents #morningroutine #journaling #slowliving",
+    "name": "Roksana",
+    "city": "Tulum",
+    "weather": "30°C · Clear",
+    "edition": "Morning Edition",
+    "date": "Friday, October 2, 2026",
+    "lockDate": "Friday, October 2",
+    "page": {
+      "waiting": [
+        [
+          "Hannah Cole",
+          "Approved the plan. Where to send the files?"
+        ],
+        [
+          "Oliver Stein",
+          "Still waiting for the Friday slot."
+        ],
+        [
+          "Landlord",
+          "Water bill. Due tomorrow."
+        ]
+      ],
+      "payments": [
+        [
+          "Received today",
+          "$1,980"
+        ],
+        [
+          "Pending",
+          "1"
+        ]
+      ],
+      "diary": [
+        [
+          "08:30",
+          "Market"
+        ],
+        [
+          "13:30",
+          "Flight check-in opens"
+        ],
+        [
+          "19:00",
+          "Nothing. Keep it that way."
+        ]
+      ]
+    },
+    "notifs": [
+      "Instagram · 19 new comments",
+      "Mail · Your statement is ready",
+      "Slack · 3 people are waiting",
+      "Weather · Severe heat today",
+      "Reminder · Call the landlord",
+      "Telegram · 7 unread chats"
+    ],
+    "clearAt": 2,
+    "splitAt": 1
+  },
+  {
+    "id": "2026-10-02-03",
+    "template": "headlines",
+    "theme": "paper",
+    "account": "main",
+    "voice": "af_heart",
+    "speed": 1.05,
+    "title": "My newspaper wrote these headlines about me today.",
+    "lines": [
+      {
+        "say": "My newspaper wrote these headlines about me today.",
+        "head": "Today's headlines, about me",
+        "kicker": "Front page"
+      },
+      {
+        "say": "Local woman answers all three emails. Nation stunned.",
+        "head": "Local woman answers all three emails",
+        "kicker": "Waiting"
+      },
+      {
+        "say": "Payment arrives on time, witnesses confirm.",
+        "head": "Payment arrives on time, witnesses confirm",
+        "kicker": "Payments"
+      },
+      {
+        "say": "Dinner at seven. No further comment.",
+        "head": "Dinner at seven. No further comment.",
+        "kicker": "Diary"
+      },
+      {
+        "say": "Yours is in the bio.",
+        "caption": "Link in bio"
+      }
+    ],
+    "caption": "My newspaper wrote these headlines about me today.\n\nLocal woman answers all three emails. Nation stunned. Payment arrives on time, witnesses confirm. Dinner at seven. No further comment.\n\nWant your own paper? Link in bio.",
+    "hashtags": "#newspaper #aiagents #morningroutine #journaling #slowliving",
+    "name": "Roksana",
+    "city": "Tulum",
+    "weather": "29°C · Clear",
+    "edition": "Morning Edition",
+    "date": "Friday, October 2, 2026",
+    "lockDate": "Friday, October 2",
+    "page": {
+      "waiting": [
+        [
+          "Elena Marsh",
+          "Loved the draft. One question about page two."
+        ],
+        [
+          "Jonas Berg",
+          "Waiting on the keys since Monday."
+        ],
+        [
+          "Dad",
+          "Called at 23:40. No message."
+        ]
+      ],
+      "payments": [
+        [
+          "Received today",
+          "$2,110"
+        ],
+        [
+          "Refunded",
+          "1"
+        ]
+      ],
+      "diary": [
+        [
+          "07:30",
+          "Walk before the heat"
+        ],
+        [
+          "12:00",
+          "Lunch with Clara"
+        ],
+        [
+          "16:00",
+          "Dentist, bring the card"
+        ]
+      ]
+    },
+    "notifs": [
+      "Instagram · 19 new comments",
+      "Mail · Your statement is ready",
+      "Slack · 3 people are waiting",
+      "Weather · Severe heat today",
+      "Reminder · Call the landlord",
+      "Telegram · 7 unread chats"
+    ],
+    "clearAt": 2,
+    "splitAt": 1
+  },
+  {
+    "id": "2026-10-02-04",
+    "template": "frontpage",
+    "theme": "paper",
+    "account": "main",
+    "voice": "bm_george",
+    "speed": 1.05,
+    "title": "My front page this morning: three people, one payment, zero news.",
+    "lines": [
+      {
+        "say": "My front page this morning: three people, one payment, zero news.",
+        "caption": "3 people · 1 payment · 0 news"
+      },
+      {
+        "say": "Daniel wants Thursday. Marta wants one word.",
+        "head": "Daniel wants Thursday. Marta wants one word.",
+        "kicker": "Waiting"
+      },
+      {
+        "say": "Mom wants Sunday.",
+        "head": "Mom wants Sunday. Two days without an answer.",
+        "kicker": "Letters"
+      },
+      {
+        "say": "That's the whole paper. That's the whole day.",
+        "head": "Nothing else happened. Good.",
+        "kicker": "Front page"
+      },
+      {
+        "say": "Yours is in the bio.",
+        "caption": "Link in bio"
+      }
+    ],
+    "caption": "My front page this morning: three people, one payment, zero news.\n\nDaniel wants Thursday. Marta wants one word. Mom wants Sunday. That's the whole paper. That's the whole day.\n\nWant your own paper? Link in bio.",
+    "hashtags": "#aiagents #morningroutine #newspaper #productivity #slowliving",
+    "name": "Roksana",
+    "city": "Tulum",
+    "weather": "30°C · Clear",
+    "edition": "Morning Edition",
+    "date": "Friday, October 2, 2026",
+    "lockDate": "Friday, October 2",
+    "page": {
+      "waiting": [
+        [
+          "Priya Nair",
+          "Three dates for the shoot. Pick one."
+        ],
+        [
+          "Lucas Ferreira",
+          "Quote accepted. Needs the deposit link."
+        ],
+        [
+          "Anna",
+          "Birthday dinner, yes or no."
+        ]
+      ],
+      "payments": [
+        [
+          "Received today",
+          "$430"
+        ],
+        [
+          "Failed",
+          "0"
+        ]
+      ],
+      "diary": [
+        [
+          "09:00",
+          "Write, phone in the drawer"
+        ],
+        [
+          "14:00",
+          "Visa office"
+        ],
+        [
+          "20:00",
+          "Call with Mom"
+        ]
+      ]
+    },
+    "notifs": [
+      "Slack · 14 new messages",
+      "Mail · Invoice overdue",
+      "Instagram · 37 new requests",
+      "News · Markets slide at open",
+      "Calendar · 3 conflicts today",
+      "WhatsApp · Mom: call me"
+    ],
+    "clearAt": 2,
+    "splitAt": 1
+  },
+  {
+    "id": "2026-10-02-05",
+    "template": "printer",
+    "theme": "paper",
+    "account": "main",
+    "voice": "bf_emma",
+    "speed": 1.05,
+    "title": "My printer knows my day before I do.",
+    "lines": [
+      {
+        "say": "My printer knows my day before I do.",
+        "caption": "The printer knows first."
+      },
+      {
+        "say": "At midnight an AI reads my calendar and my inbox.",
+        "caption": "Midnight: AI reads it all."
+      },
+      {
+        "say": "At six thirty, this comes out.",
+        "caption": "6:30: this comes out."
+      },
+      {
+        "say": "I haven't touched my phone yet.",
+        "caption": "Phone untouched."
+      },
+      {
+        "say": "Yours is in the bio.",
+        "caption": "Link in bio"
+      }
+    ],
+    "caption": "My printer knows my day before I do.\n\nAt midnight an AI reads my calendar and my inbox. At six thirty, this comes out. I haven't touched my phone yet.\n\nWant your own paper? Link in bio.",
+    "hashtags": "#slowmorning #printer #analog #morningroutine #newspaper",
+    "name": "Roksana",
+    "city": "Tulum",
+    "weather": "29°C · Clear",
+    "edition": "Morning Edition",
+    "date": "Friday, October 2, 2026",
+    "lockDate": "Friday, October 2",
+    "page": {
+      "waiting": [
+        [
+          "Hannah Cole",
+          "Approved the plan. Where to send the files?"
+        ],
+        [
+          "Oliver Stein",
+          "Still waiting for the Friday slot."
+        ],
+        [
+          "Landlord",
+          "Water bill. Due tomorrow."
+        ]
+      ],
+      "payments": [
+        [
+          "Received today",
+          "$1,980"
+        ],
+        [
+          "Pending",
+          "1"
+        ]
+      ],
+      "diary": [
+        [
+          "08:30",
+          "Market"
+        ],
+        [
+          "13:30",
+          "Flight check-in opens"
+        ],
+        [
+          "19:00",
+          "Nothing. Keep it that way."
+        ]
+      ]
+    },
+    "notifs": [
+      "Slack · 14 new messages",
+      "Mail · Invoice overdue",
+      "Instagram · 37 new requests",
+      "News · Markets slide at open",
+      "Calendar · 3 conflicts today",
+      "WhatsApp · Mom: call me"
+    ],
+    "clearAt": 2,
+    "splitAt": 1
+  },
+  {
+    "id": "2026-10-02-06",
+    "template": "lockscreen",
+    "theme": "paper",
+    "account": "main",
+    "voice": "af_heart",
+    "speed": 1.05,
+    "title": "Every app wants me at 6:30. Only one page gets me.",
+    "lines": [
+      {
+        "say": "Every app wants me at 6:30. Only one page gets me.",
+        "caption": "Only one page gets me."
+      },
+      {
+        "say": "Here's the usual crowd.",
+        "caption": "The usual crowd."
+      },
+      {
+        "say": "And here's what I actually read.",
+        "caption": "What I actually read."
+      },
+      {
+        "say": "An AI did the reading. I do the living.",
+        "caption": "AI reads. I live."
+      },
+      {
+        "say": "Want your own? Link in bio.",
+        "caption": "Link in bio"
+      }
+    ],
+    "caption": "Every app wants me at 6:30. Only one page gets me.\n\nHere's the usual crowd. And here's what I actually read. An AI did the reading. I do the living.\n\nWant your own paper? Link in bio.",
+    "hashtags": "#digitalminimalism #lockscreen #morningroutine #aiagents #productivity",
+    "name": "Roksana",
+    "city": "Tulum",
+    "weather": "30°C · Clear",
+    "edition": "Morning Edition",
+    "date": "Friday, October 2, 2026",
+    "lockDate": "Friday, October 2",
+    "page": {
+      "waiting": [
+        [
+          "Mia Thornton",
+          "Wants the recording before the weekend."
+        ],
+        [
+          "Ben Okafor",
+          "Asked for a second call. Any day but Tuesday."
+        ],
+        [
+          "Sister",
+          "Sent 14 photos. One question."
+        ]
+      ],
+      "payments": [
+        [
+          "Received today",
+          "$3,250"
+        ],
+        [
+          "Failed",
+          "2"
+        ]
+      ],
+      "diary": [
+        [
+          "07:00",
+          "Printer prints at 6:30, coffee at 7"
+        ],
+        [
+          "10:00",
+          "Studio"
+        ],
+        [
+          "17:00",
+          "Sunset, no camera"
+        ]
+      ]
+    },
+    "notifs": [
+      "Instagram · 19 new comments",
+      "Mail · Your statement is ready",
+      "Slack · 3 people are waiting",
+      "Weather · Severe heat today",
+      "Reminder · Call the landlord",
+      "Telegram · 7 unread chats"
+    ],
+    "clearAt": 2,
+    "splitAt": 1
+  },
+  {
+    "id": "2026-10-02-07",
+    "template": "printer",
+    "theme": "paper",
+    "account": "main",
+    "voice": "bf_emma",
+    "speed": 1.05,
+    "title": "I stopped checking my phone. The printer checks it for me.",
+    "lines": [
+      {
+        "say": "I stopped checking my phone. The printer checks it for me.",
+        "caption": "The printer checks my phone."
+      },
+      {
+        "say": "It reads the messages and keeps the three that matter.",
+        "caption": "Keeps the three that matter."
+      },
+      {
+        "say": "It lists what got paid and what didn't.",
+        "caption": "Paid. Not paid."
+      },
+      {
+        "say": "And it prints my evening plan on the same page.",
+        "caption": "Evening plan, same page."
+      },
+      {
+        "say": "Link in bio if you want one.",
+        "caption": "Link in bio"
+      }
+    ],
+    "caption": "I stopped checking my phone. The printer checks it for me.\n\nIt reads the messages and keeps the three that matter. It lists what got paid and what didn't. And it prints my evening plan on the same page.\n\nWant your own paper? Link in bio.",
+    "hashtags": "#slowmorning #printer #analog #morningroutine #newspaper",
+    "name": "Roksana",
+    "city": "Tulum",
+    "weather": "27°C · Showers",
+    "edition": "Morning Edition",
+    "date": "Friday, October 2, 2026",
+    "lockDate": "Friday, October 2",
+    "page": {
+      "waiting": [
+        [
+          "Sophie Grant",
+          "Contract back with one change. Needs a yes by noon."
+        ],
+        [
+          "Tom Alder",
+          "Sent the invoice. Asking if the date is right."
+        ],
+        [
+          "Nadia",
+          "Wants to borrow the car Saturday."
+        ]
+      ],
+      "payments": [
+        [
+          "Received today",
+          "$860"
+        ],
+        [
+          "Pending",
+          "2"
+        ]
+      ],
+      "diary": [
+        [
+          "08:00",
+          "Swim"
+        ],
+        [
+          "11:00",
+          "Design review"
+        ],
+        [
+          "18:30",
+          "Pick up the frames"
+        ]
+      ]
+    },
+    "notifs": [
+      "Slack · 14 new messages",
+      "Mail · Invoice overdue",
+      "Instagram · 37 new requests",
+      "News · Markets slide at open",
+      "Calendar · 3 conflicts today",
+      "WhatsApp · Mom: call me"
+    ],
+    "clearAt": 2,
+    "splitAt": 1
+  },
+  {
+    "id": "2026-10-02-08",
+    "template": "versus",
+    "theme": "paper",
+    "account": "main",
+    "voice": "am_michael",
+    "speed": 1.05,
+    "title": "Breaking news vs. my news.",
+    "lines": [
+      {
+        "say": "Breaking news vs. my news.",
+        "caption": "Breaking news vs. my news"
+      },
+      {
+        "say": "Breaking: something happened somewhere.",
+        "caption": "Breaking: something, somewhere."
+      },
+      {
+        "say": "Mine: Sophie needs a yes by noon.",
+        "caption": "Mine: Sophie needs a yes by noon."
+      },
+      {
+        "say": "Only one of these changes my day.",
+        "caption": "Only one changes my day."
+      },
+      {
+        "say": "Link in bio if you want one.",
+        "caption": "Link in bio"
+      }
+    ],
+    "caption": "Breaking news vs. my news.\n\nBreaking: something happened somewhere. Mine: Sophie needs a yes by noon. Only one of these changes my day.\n\nWant your own paper? Link in bio.",
+    "hashtags": "#morningroutine #digitalminimalism #slowliving #productivity #newspaper",
+    "name": "Roksana",
+    "city": "Tulum",
+    "weather": "29°C · Clear",
+    "edition": "Morning Edition",
+    "date": "Friday, October 2, 2026",
+    "lockDate": "Friday, October 2",
+    "page": {
+      "waiting": [
+        [
+          "Mia Thornton",
+          "Wants the recording before the weekend."
+        ],
+        [
+          "Ben Okafor",
+          "Asked for a second call. Any day but Tuesday."
+        ],
+        [
+          "Sister",
+          "Sent 14 photos. One question."
+        ]
+      ],
+      "payments": [
+        [
+          "Received today",
+          "$3,250"
+        ],
+        [
+          "Failed",
+          "2"
+        ]
+      ],
+      "diary": [
+        [
+          "07:00",
+          "Printer prints at 6:30, coffee at 7"
+        ],
+        [
+          "10:00",
+          "Studio"
+        ],
+        [
+          "17:00",
+          "Sunset, no camera"
+        ]
+      ]
+    },
+    "notifs": [
+      "Slack · 14 new messages",
+      "Mail · Invoice overdue",
+      "Instagram · 37 new requests",
+      "News · Markets slide at open",
+      "Calendar · 3 conflicts today",
+      "WhatsApp · Mom: call me"
+    ],
+    "clearAt": 2,
+    "splitAt": 1
+  },
+  {
+    "id": "2026-10-02-09",
+    "template": "lockscreen",
+    "theme": "paper",
+    "account": "main",
+    "voice": "bf_emma",
+    "speed": 1.05,
+    "title": "My lock screen is a newspaper now.",
+    "lines": [
+      {
+        "say": "My lock screen is a newspaper now.",
+        "caption": "Lock screen = newspaper"
+      },
+      {
+        "say": "Not a feed. Not a widget. A front page.",
+        "caption": "A front page."
+      },
+      {
+        "say": "Who's waiting, what got paid, where I'm going.",
+        "caption": "Waiting · paid · where I'm going"
+      },
+      {
+        "say": "Updated every night at midnight.",
+        "caption": "Updated at midnight."
+      },
+      {
+        "say": "Want your own? Link in bio.",
+        "caption": "Link in bio"
+      }
+    ],
+    "caption": "My lock screen is a newspaper now.\n\nNot a feed. Not a widget. A front page. Who's waiting, what got paid, where I'm going. Updated every night at midnight.\n\nWant your own paper? Link in bio.",
+    "hashtags": "#digitalminimalism #lockscreen #morningroutine #aiagents #productivity",
+    "name": "Roksana",
+    "city": "Tulum",
+    "weather": "30°C · Clear",
+    "edition": "Morning Edition",
+    "date": "Friday, October 2, 2026",
+    "lockDate": "Friday, October 2",
+    "page": {
+      "waiting": [
+        [
+          "Priya Nair",
+          "Three dates for the shoot. Pick one."
+        ],
+        [
+          "Lucas Ferreira",
+          "Quote accepted. Needs the deposit link."
+        ],
+        [
+          "Anna",
+          "Birthday dinner, yes or no."
+        ]
+      ],
+      "payments": [
+        [
+          "Received today",
+          "$430"
+        ],
+        [
+          "Failed",
+          "0"
+        ]
+      ],
+      "diary": [
+        [
+          "09:00",
+          "Write, phone in the drawer"
+        ],
+        [
+          "14:00",
+          "Visa office"
+        ],
+        [
+          "20:00",
+          "Call with Mom"
+        ]
+      ]
+    },
+    "notifs": [
+      "Slack · 14 new messages",
+      "Mail · Invoice overdue",
+      "Instagram · 37 new requests",
+      "News · Markets slide at open",
+      "Calendar · 3 conflicts today",
+      "WhatsApp · Mom: call me"
+    ],
+    "clearAt": 1,
+    "splitAt": 1
+  },
+  {
+    "id": "2026-10-02-10",
+    "template": "frontpage",
+    "theme": "paper",
+    "account": "main",
+    "voice": "af_heart",
+    "speed": 1.05,
+    "title": "An AI wrote a newspaper about my Tuesday.",
+    "lines": [
+      {
+        "say": "An AI wrote a newspaper about my Tuesday.",
+        "caption": "A newspaper about my Tuesday"
+      },
+      {
+        "say": "It read my inbox so I didn't have to.",
+        "head": "52 emails read. Two made the paper.",
+        "kicker": "Waiting"
+      },
+      {
+        "say": "It checked what got paid.",
+        "head": "$860 in. Two payments still pending.",
+        "kicker": "Payments"
+      },
+      {
+        "say": "It even knew about the dentist.",
+        "head": "16:00. Dentist. Bring the card.",
+        "kicker": "Diary"
+      },
+      {
+        "say": "Want your own? Link in bio.",
+        "caption": "Link in bio"
+      }
+    ],
+    "caption": "An AI wrote a newspaper about my Tuesday.\n\nIt read my inbox so I didn't have to. It checked what got paid. It even knew about the dentist.\n\nWant your own paper? Link in bio.",
+    "hashtags": "#aiagents #morningroutine #newspaper #productivity #slowliving",
+    "name": "Roksana",
+    "city": "Tulum",
+    "weather": "29°C · Clear",
+    "edition": "Morning Edition",
+    "date": "Friday, October 2, 2026",
+    "lockDate": "Friday, October 2",
+    "page": {
+      "waiting": [
+        [
+          "Elena Marsh",
+          "Loved the draft. One question about page two."
+        ],
+        [
+          "Jonas Berg",
+          "Waiting on the keys since Monday."
+        ],
+        [
+          "Dad",
+          "Called at 23:40. No message."
+        ]
+      ],
+      "payments": [
+        [
+          "Received today",
+          "$2,110"
+        ],
+        [
+          "Refunded",
+          "1"
+        ]
+      ],
+      "diary": [
+        [
+          "07:30",
+          "Walk before the heat"
+        ],
+        [
+          "12:00",
+          "Lunch with Clara"
+        ],
+        [
+          "16:00",
+          "Dentist, bring the card"
+        ]
+      ]
+    },
+    "notifs": [
+      "Mail · 52 unread",
+      "Slack · @channel: urgent?",
+      "Bank · Payment failed",
+      "News · Breaking: everything",
+      "Calendar · 9:00 moved to 8:30",
+      "Group chat · 112 messages"
+    ],
+    "clearAt": 2,
+    "splitAt": 1
+  }
+]
