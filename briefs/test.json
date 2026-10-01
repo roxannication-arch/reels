@@ -1,0 +1,71 @@
+[
+  {
+    "id": "t1-frontpage",
+    "template": "frontpage",
+    "lines": [
+      { "say": "This newspaper has exactly one reader.", "caption": "One reader." },
+      { "say": "Me. At seven, an AI reads all my messages.", "head": "47 messages. Three need you.", "kicker": "Waiting", "body": "Daniel wants Thursday. Marta wants one word. Mom wants Sunday." },
+      { "say": "Front page: who's waiting for my reply.", "head": "$1,240 received. One payment failed.", "kicker": "Payments" },
+      { "say": "What got paid. What broke overnight.", "head": "All engines running", "kicker": "Engine room" },
+      { "say": "Want your own paper? Link in bio.", "caption": "Want yours? Link in bio" }
+    ],
+    "caption": "My newspaper has one reader.\n\nEvery morning an AI reads my messages, payments and calendar and prints one page. Who's waiting, what got paid, what broke. Then I put the phone down.\n\nWant your own paper? Link in bio.",
+    "hashtags": "#aiagents #morningroutine #productivity #newspaper #slowliving"
+  },
+  {
+    "id": "t2-printer",
+    "template": "printer",
+    "lines": [
+      { "say": "Six thirty. The printer wakes up before I do.", "caption": "6:30. The printer wakes up first." },
+      { "say": "It prints one page about my life.", "caption": "One page. About my life." },
+      { "say": "Who's waiting for me. What got paid. My day.", "caption": "Who's waiting · what got paid · my day" },
+      { "say": "I read it with coffee. Then the phone stays off.", "caption": "Coffee. Paper. Phone off." },
+      { "say": "Want your own? Link in bio.", "caption": "Want yours? Link in bio" }
+    ],
+    "caption": "The printer wakes up before I do.\n\nAt 6:30 it prints one page about my life: who's waiting for me, what got paid, what my day looks like. I read it with coffee and the phone stays off until nine.\n\nWant your own paper? Link in bio.",
+    "hashtags": "#slowmorning #morningroutine #aiagents #printer #analog"
+  },
+  {
+    "id": "t3-lockscreen",
+    "template": "lockscreen",
+    "clearAt": 2,
+    "lines": [
+      { "say": "This is what my phone used to look like at six thirty.", "caption": "6:30. Before." },
+      { "say": "Forty notifications. Before coffee.", "caption": "40 notifications before coffee" },
+      { "say": "Now it looks like this.", "caption": "Now." },
+      { "say": "An AI reads everything and prints me a newspaper.", "caption": "AI reads it all. Prints one page." },
+      { "say": "Same information. Zero scroll.", "caption": "Same information. Zero scroll." },
+      { "say": "Want your own? Link in bio.", "caption": "Want yours? Link in bio" }
+    ],
+    "caption": "My lock screen used to be 40 notifications before coffee.\n\nNow an AI reads all of it overnight and prints me one newspaper page. Same information, zero scrolling.\n\nWant your own paper? Link in bio.",
+    "hashtags": "#digitalminimalism #morningroutine #aiagents #productivity #lockscreen"
+  },
+  {
+    "id": "t4-versus",
+    "template": "versus",
+    "splitAt": 1,
+    "lines": [
+      { "say": "Their morning: the feed decides what matters.", "caption": "Their morning: the feed decides." },
+      { "say": "My morning: a newspaper written about me.", "caption": "My morning: a paper about me." },
+      { "say": "Three people waiting. One payment. One dinner.", "caption": "3 people · 1 payment · 1 dinner" },
+      { "say": "Ten minutes, and I know the day.", "caption": "10 minutes. I know the day." },
+      { "say": "Want your own? Link in bio.", "caption": "Want yours? Link in bio" }
+    ],
+    "caption": "Their morning: the feed decides what matters.\n\nMy morning: a newspaper written about me while I slept. Three people waiting, one payment, one dinner. Ten minutes and I know the day.\n\nWant your own paper? Link in bio.",
+    "hashtags": "#morningroutine #productivity #aiagents #slowliving #newspaper"
+  },
+  {
+    "id": "t5-headlines",
+    "template": "headlines",
+    "theme": "haunted",
+    "edition": "Haunted Edition",
+    "lines": [
+      { "say": "My newspaper went haunted this morning.", "head": "Local woman survives 47 unread emails", "kicker": "Front page" },
+      { "say": "It wrote an obituary for my deadlines.", "head": "Obituary: the Tuesday deadline, 2026 to 2026", "kicker": "Obituaries" },
+      { "say": "And a horoscope that knew too much.", "head": "Scorpio: the invoice knows where you live", "kicker": "Horoscope" },
+      { "say": "Haunted edition. One week only. Link in bio.", "head": "Haunted Edition · one week only", "kicker": "Link in bio" }
+    ],
+    "caption": "My newspaper went haunted this morning.\n\nSame AI, same page about my life, but it wrote an obituary for my deadlines and a horoscope that knew too much.\n\nHaunted Edition, one week only. Link in bio.",
+    "hashtags": "#halloween #spookyseason #aiagents #newspaper #morningroutine"
+  }
+]

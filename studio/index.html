@@ -1,0 +1,119 @@
+<title>Reel Studio</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:wght@400;500;600;800&display=swap">
+<style>
+  /* Layout: pressroom board. Sticky dateline on top, a grid of proof cards below; each card is one reel with its caption ready to copy. */
+  :root {
+    --bg: #EEF0F2; --fg: #121212; --muted: #5B6168; --hair: #D2D6DB; --card: #F7F8F9; --accent: #A2231D; --ok: #2E7D4F; --okbg: #E3F1E8;
+    --flag: 'UnifrakturCook', 'Old English Text MT', serif; --head: 'Libre Caslon Text', Georgia, serif; --sans: 'Libre Franklin', 'Helvetica Neue', Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #141516; --fg: #ECEDEE; --muted: #9AA0A6; --hair: #2E3236; --card: #1C1E20; --accent: #E05A52; --ok: #6CC391; --okbg: #1E2F25; color-scheme: dark } }
+  :root[data-theme="dark"] { --bg: #141516; --fg: #ECEDEE; --muted: #9AA0A6; --hair: #2E3236; --card: #1C1E20; --accent: #E05A52; --ok: #6CC391; --okbg: #1E2F25; color-scheme: dark }
+  body { background: var(--bg); color: var(--fg); font-family: var(--sans); margin: 0; padding-inline: 16px; padding-block: 0 48px; }
+  .wrap { max-width: 1240px; margin: 0 auto; }
+  header { position: sticky; top: env(safe-area-inset-top, 0px); background: var(--bg); z-index: 5; border-bottom: 2px solid var(--fg); padding-block: 14px 10px; display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .flag { font-family: var(--flag); font-size: 40px; line-height: 1; }
+  .dateline { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-top: 6px; }
+  .tally { display: flex; gap: 22px; font-variant-numeric: tabular-nums; }
+  .tally b { display: block; font-family: var(--head); font-size: 30px; line-height: 1; }
+  .tally small { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+  .note { font-size: 14px; color: var(--muted); margin-block: 18px 22px; max-width: 70ch; line-height: 1.5; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 22px; }
+  .card { background: var(--card); border: 1px solid var(--hair); display: flex; flex-direction: column; min-width: 0; }
+  .card.posted { opacity: .55; }
+  .num { font-family: var(--head); font-size: 13px; letter-spacing: .1em; color: var(--muted); padding: 10px 14px 0; display: flex; justify-content: space-between; align-items: center; }
+  .num span { text-transform: uppercase; }
+  video { display: block; width: 100%; aspect-ratio: 9/16; max-width: 100%; background: #000; margin-top: 10px; }
+  .body { padding: 14px; display: flex; flex-direction: column; gap: 12px; }
+  h2 { font-family: var(--head); font-size: 20px; line-height: 1.25; margin: 0; text-wrap: balance; }
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+  .chip { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; border: 1px solid var(--hair); padding: 3px 8px; color: var(--muted); }
+  .chip.acc { color: var(--accent); border-color: var(--accent); }
+  .caption { font-family: var(--head); font-size: 15px; line-height: 1.45; white-space: pre-wrap; border-left: 2px solid var(--hair); padding-left: 12px; margin: 0; color: var(--fg); max-height: 230px; overflow: auto; }
+  .tags { font-size: 13px; color: var(--muted); word-break: break-word; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: auto; }
+  button, .lnk { font-family: var(--sans); font-weight: 600; font-size: 13px; letter-spacing: .02em; border: 1px solid var(--fg); background: var(--fg); color: var(--bg); padding: 9px 14px; cursor: pointer; text-decoration: none; display: inline-block; }
+  button.ghost, .lnk { background: transparent; color: var(--fg); }
+  button:focus-visible, .lnk:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  label.post { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--muted); margin-left: auto; cursor: pointer; }
+  .toast { position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--okbg); color: var(--ok); border: 1px solid var(--ok); padding: 10px 16px; font-size: 14px; font-weight: 600; }
+  .empty { border: 1px dashed var(--hair); padding: 40px 20px; text-align: center; color: var(--muted); font-family: var(--head); font-size: 18px; }
+  @media (prefers-reduced-motion: no-preference) { .card { transition: opacity .2s } }
+</style>
+<div class="wrap">
+  <header>
+    <div>
+      <div class="flag">Reel Studio</div>
+      <div class="dateline" id="dateline">Today's batch</div>
+    </div>
+    <div class="tally">
+      <div><b id="n-total">0</b><small>Reels</small></div>
+      <div><b id="n-posted">0</b><small>Posted</small></div>
+      <div><b id="n-left">0</b><small>Left</small></div>
+    </div>
+  </header>
+  <p class="note">Each card is one finished reel. Play it, copy the caption, then open the video and save it to your phone. Tick “Posted” when it's up; the tick is remembered on this device only. A new batch replaces this one every morning.</p>
+  <div class="grid" id="grid"><div class="empty">Loading today's batch…</div></div>
+</div>
+<div class="toast" id="toast" hidden>Copied</div>
+<script>
+(async () => {
+  const grid = document.getElementById('grid');
+  let items = [];
+  try {
+    const r = await fetch('reels/manifest.json', { cache: 'no-store' });
+    items = await r.json();
+  } catch (e) {
+    grid.innerHTML = '<div class="empty">No batch published yet. The morning task fills this page.</div>';
+    return;
+  }
+  const batch = (items[0] && items[0].batch) || '';
+  const d = batch ? new Date(batch + 'T00:00:00') : new Date();
+  document.getElementById('dateline').textContent = d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' }) + ' · ' + items.length + ' reels';
+  const key = 'posted:' + batch;
+  let posted = {};
+  try { posted = JSON.parse(localStorage.getItem(key) || '{}'); } catch (e) {}
+  const save = () => { try { localStorage.setItem(key, JSON.stringify(posted)); } catch (e) {} };
+  const tally = () => {
+    const p = items.filter((it) => posted[it.id]).length;
+    document.getElementById('n-total').textContent = items.length;
+    document.getElementById('n-posted').textContent = p;
+    document.getElementById('n-left').textContent = items.length - p;
+  };
+  const toast = document.getElementById('toast');
+  let tt;
+  const say = (msg) => { toast.textContent = msg; toast.hidden = false; clearTimeout(tt); tt = setTimeout(() => (toast.hidden = true), 1600); };
+  const copy = async (text, el) => {
+    try { await navigator.clipboard.writeText(text); say('Copied'); }
+    catch (e) { const r = document.createRange(); r.selectNodeContents(el); const s = getSelection(); s.removeAllRanges(); s.addRange(r); say('Select and copy'); }
+  };
+  grid.innerHTML = '';
+  items.forEach((it, i) => {
+    const card = document.createElement('article');
+    card.className = 'card' + (posted[it.id] ? ' posted' : '');
+    const full = (it.caption || '') + (it.hashtags ? '\n\n' + it.hashtags : '');
+    card.innerHTML = `
+      <div class="num"><span>No. ${String(i + 1).padStart(2, '0')}</span><span>${it.duration ? Math.round(it.duration) + ' s' : ''}</span></div>
+      <video controls playsinline preload="none" poster="reels/${it.cover}" src="reels/${it.file}"></video>
+      <div class="body">
+        <h2></h2>
+        <div class="chips"><span class="chip acc"></span><span class="chip"></span>${it.theme && it.theme !== 'paper' ? '<span class="chip">' + it.theme + '</span>' : ''}</div>
+        <pre class="caption"></pre>
+        <div class="tags"></div>
+        <div class="row">
+          <button type="button" class="copy">Copy caption</button>
+          <a class="lnk" href="reels/${it.file}" target="_blank" rel="noopener">Open video</a>
+          <label class="post"><input type="checkbox" id="post-${it.id}" ${posted[it.id] ? 'checked' : ''}> Posted</label>
+        </div>
+      </div>`;
+    card.querySelector('h2').textContent = it.title || '';
+    card.querySelectorAll('.chip')[0].textContent = it.account || 'main';
+    card.querySelectorAll('.chip')[1].textContent = it.template || '';
+    card.querySelector('.caption').textContent = it.caption || '';
+    card.querySelector('.tags').textContent = it.hashtags || '';
+    card.querySelector('.copy').addEventListener('click', (e) => copy(full, card.querySelector('.caption')));
+    card.querySelector('input').addEventListener('change', (e) => { posted[it.id] = e.target.checked; if (!e.target.checked) delete posted[it.id]; save(); card.classList.toggle('posted', e.target.checked); tally(); });
+    grid.appendChild(card);
+  });
+  tally();
+})();
+</script>
